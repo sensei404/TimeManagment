@@ -34,7 +34,7 @@ const DashboardItem = (data, container = '.dashboard__content', view = 'weekly')
                     </div>
                 </article>
             </div>
-        `);
+        `)
 
         return {
             time: container.querySelector(`.dashboard__item--${id} .tracking-card__time`),
